@@ -4,6 +4,12 @@ Personal project developed with **MIT App Inventor**, using **Firebase Realtime 
 
 > This repository documents the project's logic through App Inventor's blocks (Blockly), since the original `.aia` file was created and tested directly in the MIT App Inventor online editor before being versioned here.
 
+## Development Environment
+
+The project was originally developed using the MIT App Inventor editor in 2021.
+
+![Mesadinha in MIT App Inventor](docs/Foto mesadinha.png)
+
 ## Screens and Features
 
 | # | Screen | Description |
