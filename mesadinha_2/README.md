@@ -27,13 +27,13 @@ The project was originally developed using the MIT App Inventor editor in 2021.
 
 The Designer view shows the components and interface of the project's login and registration screen.
 
-![MIT App Inventor Designer](01-editor-app-inventor-designer.png)
+![MIT App Inventor Designer](evidencia-desenvolvimento/01-editor-app-inventor-designer.png)
 
 ## Blocks
 
 The Blocks view shows the programming logic implemented for the registration button.
 
-![MIT App Inventor Blocks](02-editor-app-inventor-blocks.png)
+![MIT App Inventor Blocks](evidencia-desenvolvimento/02-editor-app-inventor-blocks.png)
 
 ## Technologies Used
 
