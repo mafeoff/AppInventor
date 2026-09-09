@@ -29,10 +29,6 @@ The project was originally developed using the MIT App Inventor editor in 2021.
 - **Firebase Realtime Database** (storage of users, balances, income, and expenses)
 - **ChartMaker** (extension for generating pie and column charts)
 
-## Project Dates
-
-This project was originally developed in the MIT App Inventor editor using the COTEMIG institutional account. The [`evidencia-desenvolvimento/`](evidencia-desenvolvimento/) folder contains screenshots of the editor with the system clock visible, confirming that the project was already under development on **October 3, 2021**, before this repository was published on GitHub.
-
 ## Designer
 
 The Designer view shows the components and interface of the project's login and registration screen.
