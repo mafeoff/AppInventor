@@ -23,6 +23,18 @@ The project was originally developed using the MIT App Inventor editor in 2021.
 | 7 | [Expense Lookup by Category](docs/07-consulta-gasto-por-categoria.png) | When a category is selected from a list, the app retrieves the total amount spent in that category from Firebase and displays it, or notifies the user if no expenses have been recorded. |
 | 8 | [Splash Screen / Timer](docs/08-splash-temporizador.png) | Opening screen of the app. A timer is triggered and automatically takes the user to the Login screen (Screen2) after a few seconds. |
 
+## Designer
+
+The Designer view shows the components and interface of the project's login and registration screen.
+
+![MIT App Inventor Designer](01-editor-app-inventor-designer.png)
+
+## Blocks
+
+The Blocks view shows the programming logic implemented for the registration button.
+
+![MIT App Inventor Blocks](02-editor-app-inventor-blocks.png)
+
 ## Technologies Used
 
 - **MIT App Inventor** (block-based programming)
