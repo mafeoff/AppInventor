@@ -1,26 +1,28 @@
-# Mesadinha — App de Controle Financeiro (MIT App Inventor + Firebase)
+# Mesadinha — Personal Finance App (MIT App Inventor + Firebase)
 
-Projeto pessoal desenvolvido no **MIT App Inventor**, com persistência de dados em **Firebase Realtime Database**. O app funciona como uma "mesadinha digital": permite cadastro/login de usuário, registro de entradas e saídas de dinheiro, consulta de saldo por data e visualização de gastos em gráficos.
+Personal project developed with **MIT App Inventor**, using **Firebase Realtime Database** for data persistence. The app works as a "digital allowance manager", allowing users to create an account and log in, record income and expenses, check their balance by date, and visualize spending through charts.
 
-> Este repositório documenta a lógica do projeto através dos blocos (Blockly) do App Inventor, já que o `.aia` original foi criado e testado diretamente no editor online do MIT App Inventor antes de ser versionado aqui.
+> This repository documents the project's logic through App Inventor's blocks (Blockly), since the original `.aia` file was created and tested directly in the MIT App Inventor online editor before being versioned here.
 
-## Telas e funcionalidades
+## Screens and Features
 
-| # | Tela | O que faz |
+| # | Screen | Description |
 |---|------|-----------|
-| 1 | [Login e Cadastro](docs/01-tela-login-e-cadastro.png) | Permite criar uma conta (usuário/senha) ou entrar em uma já existente, usando o Firebase como banco de autenticação simples. Valida se os campos estão vazios, se o usuário já existe (no cadastro) ou se a senha confere (no login), e exibe alertas para cada caso. |
-| 2 | [Menu principal e saldo](docs/02-menu-principal-e-saldo.png) | Tela inicial após o login. Busca o saldo atual no Firebase e o exibe na tela. A partir daqui o usuário navega para as telas de Entradas, Saídas, Consulta por Data, Gastos e Gráficos. |
-| 3 | [Tela de Entradas](docs/03-tela-entradas.png) | Registra valores recebidos (mesada, presente, etc.), soma ao saldo atual e grava tanto o valor da entrada (associado à data) quanto o novo saldo no Firebase. |
-| 4 | [Tela de Saídas](docs/04-tela-saidas.png) | Registra gastos por categoria (ex.: Alimentação, Transporte, Lazer). Verifica se há saldo suficiente antes de confirmar a saída; se não houver, avisa o usuário. Atualiza o saldo e grava o gasto por categoria no Firebase. |
-| 5 | [Consulta por Data](docs/05-consulta-por-data.png) | Permite escolher uma data no seletor e consultar se houve depósito (entrada) registrado naquele dia, buscando o valor salvo no Firebase para aquela data específica. |
-| 6 | [Gráficos de Gastos](docs/06-graficos-de-gastos.png) | Monta gráficos (pizza e colunas) com os gastos por categoria, usando o componente ChartMaker. Os dados vêm das saídas registradas no Firebase, agrupadas por categoria (Alimentação, Transporte, Lazer, Vestuário, Outros). |
-| 7 | [Consulta de gasto por categoria](docs/07-consulta-gasto-por-categoria.png) | Ao selecionar uma categoria em uma lista, busca no Firebase o total gasto naquela categoria e exibe na tela (ou avisa que não há gastos registrados). |
-| 8 | [Splash / Temporizador](docs/08-splash-temporizador.png) | Tela de abertura do app: um temporizador dispara e leva automaticamente o usuário para a tela de Login (Screen2) após alguns segundos. |
+| 1 | [Login and Registration](docs/01-tela-login-e-cadastro.png) | Allows users to create an account (username/password) or log in to an existing one, using Firebase as a simple authentication backend. Validates empty fields, checks whether a username already exists during registration, verifies the password during login, and displays alerts for each case. |
+| 2 | [Main Menu and Balance](docs/02-menu-principal-e-saldo.png) | The initial screen after login. Retrieves the current balance from Firebase and displays it on screen. From here, the user can navigate to the Income, Expenses, Date Lookup, Spending, and Charts screens. |
+| 3 | [Income Screen](docs/03-tela-entradas.png) | Records received amounts, such as allowances or gifts, adds them to the current balance, and stores both the income amount associated with its date and the updated balance in Firebase. |
+| 4 | [Expense Screen](docs/04-tela-saidas.png) | Records expenses by category, such as Food, Transportation, and Leisure. Checks whether there is sufficient balance before confirming an expense and notifies the user if there is insufficient balance. Updates the balance and stores the expense by category in Firebase. |
+| 5 | [Date Lookup](docs/05-consulta-por-data.png) | Allows the user to select a date and check whether an income transaction was recorded on that day by retrieving the corresponding value stored in Firebase. |
+| 6 | [Spending Charts](docs/06-graficos-de-gastos.png) | Generates pie and column charts showing spending by category using the ChartMaker component. The data comes from expenses stored in Firebase and is grouped into categories such as Food, Transportation, Leisure, Clothing, and Other. |
+| 7 | [Expense Lookup by Category](docs/07-consulta-gasto-por-categoria.png) | When a category is selected from a list, the app retrieves the total amount spent in that category from Firebase and displays it, or notifies the user if no expenses have been recorded. |
+| 8 | [Splash Screen / Timer](docs/08-splash-temporizador.png) | Opening screen of the app. A timer is triggered and automatically takes the user to the Login screen (Screen2) after a few seconds. |
 
-## Tecnologias utilizadas
-- **MIT App Inventor** (programação em blocos)
-- **Firebase Realtime Database** (armazenamento de usuários, saldo, entradas e saídas)
-- **ChartMaker** (extensão para geração de gráficos de pizza e colunas)
+## Technologies Used
 
-## Sobre as datas deste repositório
-Este projeto foi desenvolvido originalmente no editor do MIT App Inventor, na conta institucional do COTEMIG. Na pasta [`evidencia-desenvolvimento/`](evidencia-desenvolvimento/) há capturas de tela do editor com o relógio do sistema visível, confirmando que o projeto já estava em desenvolvimento em 03/10/2021 — antes da publicação deste repositório no GitHub.
+- **MIT App Inventor** (block-based programming)
+- **Firebase Realtime Database** (storage of users, balances, income, and expenses)
+- **ChartMaker** (extension for generating pie and column charts)
+
+## Project Dates
+
+This project was originally developed in the MIT App Inventor editor using the COTEMIG institutional account. The [`evidencia-desenvolvimento/`](evidencia-desenvolvimento/) folder contains screenshots of the editor with the system clock visible, confirming that the project was already under development on **October 3, 2021**, before this repository was published on GitHub.
