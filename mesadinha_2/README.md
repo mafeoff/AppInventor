@@ -32,3 +32,39 @@ The project was originally developed using the MIT App Inventor editor in 2021.
 ## Project Dates
 
 This project was originally developed in the MIT App Inventor editor using the COTEMIG institutional account. The [`evidencia-desenvolvimento/`](evidencia-desenvolvimento/) folder contains screenshots of the editor with the system clock visible, confirming that the project was already under development on **October 3, 2021**, before this repository was published on GitHub.
+
+## Block Logic
+
+The following screenshots show the block-based programming logic implemented in the project.
+
+### Login and Registration
+
+![Login and Registration Logic](docs/01-tela-login-e-cadastro.png)
+
+### Main Menu and Balance
+
+![Main Menu and Balance Logic](docs/02-menu-principal-e-saldo.png)
+
+### Income
+
+![Income Logic](docs/03-tela-entradas.png)
+
+### Expenses
+
+![Expense Logic](docs/04-tela-saidas.png)
+
+### Date Lookup
+
+![Date Lookup Logic](docs/05-consulta-por-data.png)
+
+### Spending Charts
+
+![Spending Charts Logic](docs/06-graficos-de-gastos.png)
+
+### Expense Lookup by Category
+
+![Expense Lookup by Category Logic](docs/07-consulta-gasto-por-categoria.png)
+
+### Splash Screen
+
+![Splash Screen Logic](docs/08-splash-temporizador.png)
