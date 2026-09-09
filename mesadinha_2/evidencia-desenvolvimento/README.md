@@ -1,8 +1,17 @@
-# Evidência de data de desenvolvimento
+# Development Environment
 
-Estas duas capturas de tela foram feitas diretamente no editor online do MIT App Inventor, durante o desenvolvimento do projeto **mesadinha2** (URL do projeto: `ai2.appinventor.mit.edu/#4526311422164992`, logado com a conta institucional `12100161@aluno.cotemig.com.br`).
+The project was originally developed using the MIT App Inventor editor in 2021.
 
-- [`01-editor-app-inventor-designer.png`](01-editor-app-inventor-designer.png) — tela do **Designer**, mostrando os componentes da Screen2 (login/cadastro) já montados.
-- [`02-editor-app-inventor-blocks.png`](02-editor-app-inventor-blocks.png) — tela de **Blocks**, mostrando a lógica do botão `btncadastrar.Click` já programada.
+## Designer
 
-Em ambas as imagens, o relógio do sistema operacional (canto inferior direito) mostra **03/10/2021, 15:05–15:06**, confirmando que o projeto já estava em desenvolvimento nessa data — antes da publicação deste repositório no GitHub.
+The Designer view shows the components and interface of the project's login and registration screen.
+
+![MIT App Inventor Designer](01-editor-app-inventor-designer.png)
+
+## Blocks
+
+The Blocks view shows the programming logic implemented for the registration button.
+
+![MIT App Inventor Blocks](02-editor-app-inventor-blocks.png)
+
+The system clock visible in both screenshots shows **October 3, 2021, at approximately 15:05–15:06**, providing evidence that the project was already under development at that time.
